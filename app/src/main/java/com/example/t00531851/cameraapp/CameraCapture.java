@@ -56,7 +56,6 @@ public class CameraCapture extends AppCompatActivity{
 
     //Save to file
     private File file;
-    private boolean mFlashSupported;
     private Handler mBackgroundHandler;
     private HandlerThread mBackgroundThread;
 
