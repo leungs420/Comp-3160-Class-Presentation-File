@@ -108,7 +108,7 @@ public class CameraCapture extends AppCompatActivity{
             captureBuilder.addTarget(reader.getSurface());
             captureBuilder.set(CaptureRequest.CONTROL_MODE, CameraMetadata.CONTROL_MODE_AUTO);
 
-            file = new File(Environment.getExternalStorageDirectory() + "/" +
+            file = new File(Environment.getExternalStorageDirectory() + "/DCIM/" +
                     UUID.randomUUID().toString() + ".jpg");
 
             ImageReader.OnImageAvailableListener readerListener = new ImageReader.OnImageAvailableListener() {
